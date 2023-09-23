@@ -1,2 +1,2 @@
-# class-javascript
+# first-class-javascript
 
