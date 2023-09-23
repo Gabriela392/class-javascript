@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first code</title>
+    <style>
+        body{
+            background-color: #c5baaa;
+            color:#2c2c2c;
+            font:20pt comic ;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Olá, bem-vindo(a)!</h1>
+    <p>você está vendo meu primeiro exercício de programação</p>
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')// var é "variável" e define as coisas
+        window.alert('É um prazer te conhecer ' + nome + '! O meu nome é Gabriela (❁´◡`❁)')
+        var n1=Number(window.prompt('Digite um número por favor:'))
+        var n2=Number(window.prompt('Agora outro! Vou somar isso pra você.'))//prompt é a caixinha de escrever
+        var s = n1 + n2
+        window.alert(`A soma ${n1} + ${n2} é igual a ${s}!`)//alert é a caixinha só com texto
+        document.write(`Olá <strong>${nome}</strong>!<br/>`)//${n} é uma fomra de concatenar
+        document.write(`Sabia que seu nome é formado por ${nome.length} letras?<br/>`) //${n.lenth} mostra a quantidade de letras
+        document.write('E se você quiser ver ele em letras maiúsculas eu consigo te mostrar também!<br/>') 
+        document.write(`Fica "${nome.toUpperCase()}", viu? <br/>`)
+        document.write('Ah, minúsculo também? OK!!!<br/>')
+        document.write(`"${nome.toLowerCase()}" hihi, bonitinho.<br/>`)
+        document.write('Obrigada e tchauzinho!!! ;)')
+
+    </script>
+</body>
+</html>
